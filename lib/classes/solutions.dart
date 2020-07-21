@@ -1,4 +1,5 @@
 class Solutions {
-  String name, url;
+  String name;
+  String url;
   Solutions(this.name, this.url);
 }

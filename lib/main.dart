@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       home: Container(
         color: Color(0xFF4A4A4A),
-        child: SafeArea(
+        child: SafeArea(//sdsdsd
           child: Scaffold(
             backgroundColor: Color(0xFF33312E),
             extendBody: true,

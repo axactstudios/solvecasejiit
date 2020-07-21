@@ -41,6 +41,9 @@ class _DetailsInputState extends State<DetailsInput> {
                     return null;
                   },
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 TextFormField(
                   decoration: InputDecoration(
                       hintText: 'Enrollment Number',
@@ -57,14 +60,20 @@ class _DetailsInputState extends State<DetailsInput> {
                     return null;
                   },
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 DropdownButtonFormField(
-                  iconEnabledColor: Colors.black,
+                  iconEnabledColor: Color(0xFFF99E16),
                   value: dropdownValue,
                   icon: Icon(Icons.arrow_downward),
                   decoration: InputDecoration(
-                    focusColor: Colors.black,
-                    labelStyle: TextStyle(color: Colors.black, fontSize: 17),
+                    focusColor: Color(0xFFF99E16),
+                    labelStyle:
+                        TextStyle(color: Color(0xFFF99E16), fontSize: 17),
                     enabledBorder: OutlineInputBorder(
+                      borderSide:
+                          BorderSide(color: Color(0xFFF99E16), width: 3.0),
                       borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
@@ -87,15 +96,19 @@ class _DetailsInputState extends State<DetailsInput> {
                     return null;
                   },
                 ),
-
+                SizedBox(
+                  height: 20,
+                ),
                 DropdownButtonFormField(
-                  iconEnabledColor: Colors.black,
+                  iconEnabledColor: Color(0xFFF99E16),
                   value: dropdownValue1,
                   icon: Icon(Icons.arrow_downward),
                   decoration: InputDecoration(
                     focusColor: Colors.black,
                     labelStyle: TextStyle(color: Colors.black, fontSize: 17),
                     enabledBorder: OutlineInputBorder(
+                      borderSide:
+                          BorderSide(color: Color(0xFFF99E16), width: 3.0),
                       borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
@@ -118,14 +131,19 @@ class _DetailsInputState extends State<DetailsInput> {
                     return null;
                   },
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 DropdownButtonFormField(
-                  iconEnabledColor: Colors.black,
+                  iconEnabledColor: Color(0xFFF99E16),
                   value: dropdownValue2,
                   icon: Icon(Icons.arrow_downward),
                   decoration: InputDecoration(
                     focusColor: Colors.black,
                     labelStyle: TextStyle(color: Colors.black, fontSize: 17),
                     enabledBorder: OutlineInputBorder(
+                      borderSide:
+                          BorderSide(color: Color(0xFFF99E16), width: 3.0),
                       borderRadius: BorderRadius.circular(10.0),
                     ),
                   ),
@@ -148,6 +166,9 @@ class _DetailsInputState extends State<DetailsInput> {
                     return null;
                   },
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 InkWell(
                   onTap: () async {
                     SharedPreferences prefs =
@@ -166,7 +187,7 @@ class _DetailsInputState extends State<DetailsInput> {
                     height: 50,
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                        border: Border.all(width: 2, color: Colors.white)),
+                        border: Border.all(width: 2, color: Color(0xFFF99E16))),
                     child: Text('Enter'),
                   ),
                 )

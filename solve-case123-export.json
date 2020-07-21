@@ -1,0 +1,385 @@
+{
+  "JIIT" : {
+    "Sem1" : {
+      "Cse": {
+      "Maths": {
+        "SubName" : "Maths",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Physics": {
+        "SubName" : "Physics",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "English": {
+        "SubName" : "English",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Sdf": {
+        "SubName" : "SDF",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Edd": {
+        "SubName" : "EDD",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"PhyLab": {
+          "SubName" : "Physics Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"SdfLab": {
+          "SubName" : "SDF Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Workshop": {
+        "SubName" : "Workshop",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      }
+    },"Biotech": {
+      "Maths": {
+        "SubName" : "Basic Maths",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Physics": {
+        "SubName" : "Basic Physics",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "English": {
+        "SubName" : "English",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Sdf": {
+        "SubName" : "SDF",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Bio": {
+        "SubName" : "Bio",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"BioLab": {
+          "SubName" : "Bio Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"PhysicsLab": {
+          "SubName" : "Physics Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"SdfLab": {
+          "SubName" : "SDF Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      }
+    }
+    }, "Sem2" : {
+      "Cse": {
+      "Maths": {
+        "SubName" : "Maths",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Physics": {
+        "SubName" : "Physics",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Es": {
+        "SubName" : "Electrical Science",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"EsLab": {
+          "SubName" : "Electrical Science Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Sdf": {
+        "SubName" : "SDF",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Edd": {
+        "SubName" : "EDD",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"PhyLab": {
+          "SubName" : "Physical Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"SdfLab": {
+          "SubName" : "SDF Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Workshop": {
+        "SubName" : "Workshop",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      }
+    },"Biotech": {
+      "Maths": {
+        "SubName" : "Maths",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Physics": {
+        "SubName" : "Physics",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Es": {
+        "SubName" : "Electrical Science",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"EsLab": {
+          "SubName" : "Electrical Science Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Sdf": {
+        "SubName" : "SDF",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Bio": {
+        "SubName" : "Bio",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"BioLab": {
+          "SubName" : "Bio Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"PhysicsLab": {
+          "SubName" : "Physics Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"SdfLab": {
+          "SubName" : "SDF Lab",
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      }
+    }
+    }, "Sem3" : {
+      "Cse": {
+      "Maths": {
+        "SubName" : "Maths",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Physics": {
+        "SubName" : "Physics",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Es": {
+        "SubName" : "Electrical Science",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"EsLab": {
+          "SubName" : "Electrical Science Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Sdf": {
+        "SubName" : "SDF",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Edd": {
+        "SubName" : "EDD",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"PhyLab": {
+          "SubName" : "Physics Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"SdfLab": {
+          "SubName" : "SDF Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Workshop": {
+        "SubName" : "Workshop",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      }
+    },"Ece": {
+      "Maths": {
+        "SubName" : "Maths",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Physics": {
+        "SubName" : "Physics",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Es": {
+        "SubName" : "Electrical Science",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"EsLab": {
+          "SubName" : "Electrical Science Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Sdf": {
+        "SubName" : "SDF",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },
+      "Bio": {
+        "SubName" : "Bio",
+
+        "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"BioLab": {
+          "SubName" : "Bio Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"PhysicsLab": {
+          "SubName" : "Physics Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      },"SdfLab": {
+          "SubName" : "SDF Lab",
+
+          "Assignment1": {
+          "Name": "Assignment 1",
+          "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
+        }
+      }
+    }
+    }
+  }
+}

@@ -1,8 +1,14 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:solvecasejiit/classes/solutions.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class PullUp extends StatefulWidget {
+  String college, sem, branch, sub;
+  double height, width;
+  PullUp(
+      this.college, this.sem, this.branch, this.sub, this.height, this.width);
   @override
   _PullUpState createState() => _PullUpState();
 }
@@ -33,6 +39,12 @@ class _PullUpState extends State<PullUp> {
   }
 
   @override
+  void initState() {
+    super.initState();
+    getSolutions(widget.college, widget.sem, widget.branch, widget.sub);
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
@@ -51,108 +63,59 @@ class _PullUpState extends State<PullUp> {
           borderRadius: BorderRadius.all(Radius.circular(10))),
       margin: EdgeInsets.fromLTRB(20, 20, 20, 40),
       padding: EdgeInsets.all(15),
-      height: MediaQuery.of(context).size.height,
-      width: MediaQuery.of(context).size.width,
-      child: Column(
-        children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  name,
-                  style: TextStyle(
-                      color: Theme.MyColors.themeColor,
-                      fontFamily: 'nunito',
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold),
-                  textAlign: TextAlign.center,
-                ),
-                IconButton(
-                  icon: Icon(
-                    Icons.keyboard_arrow_down,
-                    size: 40,
-                  ),
-                  onPressed: () {
-                    Navigator.pop(context, true);
-                  },
-                ),
-              ],
-            ),
-          ),
-          Expanded(
-            child: ListView(
+      height: widget.height,
+      width: widget.width,
+      child: solutions.length != 0
+          ? ListView.builder(
               shrinkWrap: true,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      Container(
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.all(Radius.circular(5)),
-                          child: Image.network(
-                            imageUrl,
-                            alignment: Alignment.center,
-                            fit: BoxFit.fill,
-                          ),
+              scrollDirection: Axis.vertical,
+              itemCount: solutions.length,
+              itemBuilder: (BuildContext, index) {
+                return InkWell(
+                  onTap: () {
+                    _launchURL(solutions[index].url);
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Color(0xFF4A4A4A),
+                          borderRadius: BorderRadius.all(Radius.circular(10))),
+                      width: MediaQuery.of(context).size.width * 0.8,
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Row(
+                          children: <Widget>[
+                            Expanded(
+                              child: Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 20),
+                                child: Container(
+                                  child: Text(
+                                    solutions[index].name,
+                                    style: GoogleFonts.k2d(fontSize: 24),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Text(
-                        'Presented by',
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontFamily: 'nunito',
-                            fontSize: 20,
-                            fontWeight: FontWeight.normal),
-                        textAlign: TextAlign.left,
-                      ),
-                      Text(
-                        imageBy,
-                        style: TextStyle(
-                            color: Theme.MyColors.themeColor,
-                            fontFamily: 'nunito',
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold),
-                        textAlign: TextAlign.start,
-                      ),
-                      SizedBox(
-                        height: 15,
-                      ),
-                      Text(
-                        'Description-',
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontFamily: 'nunito',
-                            fontSize: 20,
-                            fontWeight: FontWeight.normal),
-                        textAlign: TextAlign.left,
-                      ),
-                      Text(
-                        description,
-                        style: TextStyle(
-                            color: Color(0xFF808080),
-                            fontFamily: 'nunito',
-                            fontSize: 18,
-                            fontWeight: FontWeight.normal),
-                        textAlign: TextAlign.start,
-                      ),
-                      SizedBox(
-                        height: 10,
-                      ),
-                    ],
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
+                );
+              },
+            )
+          : Center(child: Text('Loading')),
     );
+  }
+
+  _launchURL(url1) async {
+    var url = url1;
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 }

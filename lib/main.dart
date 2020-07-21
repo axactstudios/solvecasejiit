@@ -1,5 +1,6 @@
 import 'package:fluid_bottom_nav_bar/fluid_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:solvecasejiit/Screens/DetailsInput.dart';
 import 'package:solvecasejiit/Screens/DownloadSolution.dart';
 import 'package:solvecasejiit/Screens/Others.dart';
 import 'package:solvecasejiit/Screens/StudyMaterial.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
+      home: DetailsInput(),
     );
   }
 }
@@ -40,7 +41,6 @@ class _HomeState extends State<Home> {
       home: Container(
         color: Color(0xFF4A4A4A),
         child: SafeArea(
-          //sdsdsd
           child: Scaffold(
             backgroundColor: Color(0xFF33312E),
             extendBody: true,

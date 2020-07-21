@@ -39,7 +39,8 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       home: Container(
         color: Color(0xFF4A4A4A),
-        child: SafeArea(//sdsdsd
+        child: SafeArea(
+          //sdsdsd
           child: Scaffold(
             backgroundColor: Color(0xFF33312E),
             extendBody: true,
@@ -50,16 +51,16 @@ class _HomeState extends State<Home> {
                     iconPath: "assets/arrow.svg",
                     backgroundColor: Color(0xFF4A4A4A),
                     extras: {"label": "home"}),
+//                FluidNavBarIcon(
+//                    iconPath: "assets/arrow.svg",
+//                    backgroundColor: Color(0xFF4A4A4A),
+//                    extras: {"label": "bookmark"}),
+//                FluidNavBarIcon(
+//                    iconPath: "assets/arrow.svg",
+//                    backgroundColor: Color(0xFF4A4A4A),
+//                    extras: {"label": "partner"}),
                 FluidNavBarIcon(
-                    iconPath: "assets/arrow.svg",
-                    backgroundColor: Color(0xFF4A4A4A),
-                    extras: {"label": "bookmark"}),
-                FluidNavBarIcon(
-                    iconPath: "assets/arrow.svg",
-                    backgroundColor: Color(0xFF4A4A4A),
-                    extras: {"label": "partner"}),
-                FluidNavBarIcon(
-                    iconPath: "assets/arrow.svg",
+                    iconPath: "assets/more.svg",
                     backgroundColor: Color(0xFF4A4A4A),
                     extras: {"label": "conference"}),
               ],
@@ -86,11 +87,11 @@ class _HomeState extends State<Home> {
         case 0:
           _child = DownloadSolutions();
           break;
-        case 1:
-          _child = VideoLectures();
-          break;
-        case 2:
-          _child = StudyMaterial();
+//        case 1:
+//          _child = VideoLectures();
+//          break;
+//        case 2:
+//          _child = StudyMaterial();
           break;
         case 4:
           _child = Others();

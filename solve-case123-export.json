@@ -1,7 +1,7 @@
 {
   "JIIT" : {
     "Sem1" : {
-      "Cse": {
+      "cse": {
       "Maths": {
         "SubName" : "Maths",
         "Assignment1": {
@@ -61,7 +61,7 @@
           "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
         }
       }
-    },"Biotech": {
+    },"biotech": {
       "Maths": {
         "SubName" : "Basic Maths",
         "Assignment1": {
@@ -117,7 +117,7 @@
       }
     }
     }, "Sem2" : {
-      "Cse": {
+      "cse": {
       "Maths": {
         "SubName" : "Maths",
         "Assignment1": {
@@ -178,7 +178,7 @@
           "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
         }
       }
-    },"Biotech": {
+    },"biotech": {
       "Maths": {
         "SubName" : "Maths",
         "Assignment1": {
@@ -240,7 +240,7 @@
       }
     }
     }, "Sem3" : {
-      "Cse": {
+      "cse": {
       "Maths": {
         "SubName" : "Maths",
 
@@ -310,7 +310,7 @@
           "Url": "https://firebasestorage.googleapis.com/v0/b/solve-case123.appspot.com/o/file%2FFirstYear%2Fmaths%2FAssignment%202%20solutions.pdf?alt=media&token=f08375a8-97b6-4a11-9a11-7c46dd93ce69"
         }
       }
-    },"Ece": {
+    },"ece": {
       "Maths": {
         "SubName" : "Maths",
 

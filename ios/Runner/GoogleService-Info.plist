@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>402953466200-5o9dkh1af5idt3694ji99aqnbeb6f9ee.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.402953466200-5o9dkh1af5idt3694ji99aqnbeb6f9ee</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>402953466200-e5ts6c77dgrs00ep7pbbvt12o79fmrjd.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_NKRKO4F4Rh4WbUZb35xU1_AswOpUIs8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>402953466200</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.axactstudios.solvecasejiit</string>
+	<key>PROJECT_ID</key>
+	<string>solve-case123</string>
+	<key>STORAGE_BUCKET</key>
+	<string>solve-case123.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:402953466200:ios:150d0fcb40f12ab574352d</string>
+	<key>DATABASE_URL</key>
+	<string>https://solve-case123.firebaseio.com</string>
+</dict>
+</plist>

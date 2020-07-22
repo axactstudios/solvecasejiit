@@ -1,5 +1,6 @@
 import 'package:fluid_bottom_nav_bar/fluid_bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:solvecasejiit/Screens/DetailsInput.dart';
 import 'package:solvecasejiit/Screens/DownloadSolution.dart';
 import 'package:solvecasejiit/Screens/Others.dart';
@@ -10,12 +11,21 @@ void main() {
   runApp(MyApp());
 }
 
+String semester = '', college = '', stream = '';
+getDetails() async {
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  college = prefs.getString('college');
+  semester = prefs.getString('semester');
+  stream = prefs.getString('stream');
+}
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    print(college);
     return MaterialApp(
-      home: DetailsInput(),
+      home: college.isEmpty ? DetailsInput() : Home(),
     );
   }
 }

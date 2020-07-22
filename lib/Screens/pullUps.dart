@@ -46,67 +46,68 @@ class _PullUpState extends State<PullUp> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black26,
-              blurRadius: 30.0, // soften the shadow
-              spreadRadius: 3.0, //extend the shadow
-              offset: Offset(
-                0.0, // Move to right 10  horizontally
-                0.0, // Move to bottom 10 Vertically
-              ),
-            )
-          ],
-          color: Colors.white,
-          borderRadius: BorderRadius.all(Radius.circular(10))),
-      margin: EdgeInsets.fromLTRB(20, 20, 20, 40),
-      padding: EdgeInsets.all(15),
-      height: widget.height,
-      width: widget.width,
-      child: solutions.length != 0
-          ? ListView.builder(
-              shrinkWrap: true,
-              scrollDirection: Axis.vertical,
-              itemCount: solutions.length,
-              itemBuilder: (BuildContext, index) {
-                return InkWell(
-                  onTap: () {
-                    _launchURL(solutions[index].url);
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          color: Color(0xFF4A4A4A),
-                          borderRadius: BorderRadius.all(Radius.circular(10))),
-                      width: MediaQuery.of(context).size.width * 0.8,
-                      child: Padding(
-                        padding: const EdgeInsets.all(10.0),
-                        child: Row(
-                          children: <Widget>[
-                            Expanded(
-                              child: Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(horizontal: 20),
-                                child: Container(
-                                  child: Text(
-                                    solutions[index].name,
-                                    style: GoogleFonts.k2d(fontSize: 24),
-                                  ),
+    return Scaffold(
+      backgroundColor: Color(0xFF4A4A4A),
+      body: Container(
+        decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black26,
+                blurRadius: 30.0, // soften the shadow
+                spreadRadius: 3.0, //extend the shadow
+                offset: Offset(
+                  0.0, // Move to right 10  horizontally
+                  0.0, // Move to bottom 10 Vertically
+                ),
+              )
+            ],
+            color: Color(0xFF4A4A4A),
+            borderRadius: BorderRadius.all(Radius.circular(10))),
+        margin: EdgeInsets.fromLTRB(20, 20, 20, 80),
+        padding: EdgeInsets.all(15),
+        height: widget.height,
+        width: widget.width,
+        child: solutions.length != 0
+            ? ListView.builder(
+                shrinkWrap: true,
+                scrollDirection: Axis.vertical,
+                itemCount: solutions.length,
+                itemBuilder: (BuildContext, index) {
+                  return InkWell(
+                    onTap: () {
+                      _launchURL(solutions[index].url);
+                    },
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Color(0xFF4A4A4A),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10))),
+                        width: MediaQuery.of(context).size.width * 0.8,
+                        child: Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: Expanded(
+                            child: Padding(
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 20),
+                              child: Container(
+                                child: Text(
+                                  solutions[index].name,
+                                  style: GoogleFonts.k2d(
+                                      fontSize: 24, color: Color(0xFFF99E16)),
                                 ),
                               ),
                             ),
-                          ],
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                );
-              },
-            )
-          : Center(child: Text('Loading')),
+                  );
+                },
+              )
+            : Center(child: Text('Loading')),
+      ),
     );
   }
 
